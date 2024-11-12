@@ -1,0 +1,15 @@
+蜜雪冰城的项目:ProjectDescription.MD:这是项目说明
+2024年9月19日 星期四
+AxiosPage:网络请求第三方库Axios、HttpPage:最常用的协议头有：HTTP、HTTPS、RcpPage:基于RCP的网络请求开发实践、WebSocketPage:使用WebSocket建立服务器与客户端的双向连接、WebSocketUtilities:这个是类、Posts:这个是类
+2024年9月19日 星期四
+Animate文件夹：这个文件夹学习动画、avPlayer_ThereProblems文件夹：这个文件夹学习播放、customNode文件夹：这个文件夹学习自定义节点、DraggablePage.ets文件：这个文件学习拖拽功能、event→ThreadingModel这个文件夹：这个文件夹学习线程模式、OpenLinkDemo.ets文件：这个文件学习如何跳转、storage文件夹：这个文件学习如何存储数据、Worker.ets、rawfile文件夹里面已添加videoTest.mp4、gesture文件夹：这个文件主要学习手势事件
+2024年9月4日 星期三
+MyEntryAbilityDemo.ets:同一个模块里面创建两个UiAbility、DarkPage.ets:这一节主要介绍颜色模式的切换、ImmersiveEffectPage.ets:沉浸式效果页面、MyAbilityStage.ets:想要监听还要配置module.json5下面module添加srcEntry:当前路径、PopupExample.ets:弹出示例、SpecifiedPage.ets:指定页面、SpecifiedEntryAbility.ets:指定入场能力、MmsPage.ets:/这个代码有华为手机和HarmonyOS才能测试
+2024年8月21日 星期三
+
+DemoNavigation.ets、DemoNavigationDynamicRouter.ets、PageOne.ets
+2024年8月9日 星期五
+
+
+Component是组件、layout是布局、textInput是输入框、decoratorV2是鸿蒙新出、dataPanel是数据面板
+2024年8月6日 星期二

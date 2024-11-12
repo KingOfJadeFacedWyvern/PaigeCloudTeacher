@@ -1,0 +1,93 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "routerMap": "$profile:route_map",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.PRIVACY_WINDOW"
+      }
+    ],
+    //    "srcEntry": "./ets/pages/myAbilityStage/MyAbilityStage.ets",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1",
+      "car"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MyEntryAbilityDemo",
+        "srcEntry": "./ets/myentryabilitydemo/MyEntryAbilityDemo.ets",
+        "description": "$string:MyEntryAbilityDemo_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:MyEntryAbilityDemo_label",
+        "launchType": "multiton",
+        //singleton：单例模式、multiton：多例模式
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "SpecifiedEntryAbility",
+        "srcEntry": "./ets/specifiedentryability/SpecifiedEntryAbility.ets",
+        "description": "$string:SpecifiedEntryAbility_desc",
+        "icon": "$media:layered_image",
+        "launchType": "specified",
+        "label": "$string:SpecifiedEntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+//      {
+//        "name": "EntryAbility1",
+//        "srcEntry": "./ets/entryability1/EntryAbility1.ets",
+//        "description": "$string:EntryAbility1_desc",
+//        "icon": "$media:layered_image",
+//        "label": "$string:EntryAbility1_label",
+//        "startWindowIcon": "$media:startIcon",
+//        "startWindowBackground": "$color:start_window_background"
+//      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      }
+    ]
+  }
+}

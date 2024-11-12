@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "PageOne",
+      "pageSourceFile": "src/main/ets/pages/Component/navigation/dynamicRouter/PageOne.ets",
+      "buildFunction": "PageOneBuilder"
+
+    }
+  ]
+}
